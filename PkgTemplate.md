@@ -4,8 +4,8 @@ using PkgTemplates
 t = Template(; 
            user="RvSpectML",
            dir="~/Code/RvSpectMLEcoSystem",
-           authors="Eric Ford",
-           julia=v"1.5",
+           authors="Your Name",
+           julia=v"1.3",
            plugins=[
                ProjectFile(version=v"0.0.1"), Tests(project=true), Readme(inline_badges=true), License(; name="MIT"),
                Git(; branch="main", manifest=true, ssh=true),
@@ -16,9 +16,9 @@ t = Template(;
            ]
        )
 
-t("RvSpectMLBase.jl")
+t("MyNewPackage.jl")
 DocumenterTools
-MyPackageDocumenterTools.genkeys(MyPackage)
+MyPackageDocumenterTools.genkeys(MyNewPackage)
 ```
 Note that you will need to create a repository on github, and copy and paste the results from `genkeys` as a "deploy key" and "secret" inside the settings for that github repo to get CI/CD working.
 For details, see the [Documenter.jl documentation](https://juliadocs.github.io/Documenter.jl/stable/man/hosting/#travis-ssh).
@@ -27,3 +27,5 @@ Once you've made updates as you see fit (e.g., copying .gitignore from RvSpectML
 ```bash
 git push --set-upstream origin maingit push
 ```
+
+If/when your package is ready to be used by others, you may want to register your package via the [Julia Registrator](https://github.com/JuliaRegistries/Registrator.jl).
