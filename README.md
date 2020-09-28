@@ -2,11 +2,14 @@
 - Packages:
    * General Purpose:
      - [RvSpectMLBase.jl](https://github.com/RvSpectML/RvSpectMLBase.jl): Base package to be imported by other members of RvSpectML ecosystem. Provides common data types and methods.  Aims to minimize dependancies on other packages.[^itend-stable]
-  [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/RvSpectMLBase.jl/stable) [![Build Status](https://github.com/RvSpectML/RvSpectMLBase.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/RvSpectMLBase.jl/actions)
-     - [EchelleInstruments.jl](https://github.com/RvSpectML/EchelleInstruments.jl): Instrument-speciifc code for RvSpectML.  Currently supports NEID and EXPRES.[^itend-stable][^reg-pending]  [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/EchelleInstruments.jl/stable)  [![Build Status](https://github.com/RvSpectML/EchelleInstruments.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/EchelleInstruments.jl/actions)
+     [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/RvSpectMLBase.jl/stable) [![Build Status](https://github.com/RvSpectML/RvSpectMLBase.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/RvSpectMLBase.jl/actions)
+     - [EchelleInstruments.jl](https://github.com/RvSpectML/EchelleInstruments.jl): Instrument-speciifc code for RvSpectML.  Currently supports NEID and EXPRES.[^itend-stable]<sup>,</sup>[^reg-pending]  
+     [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/EchelleInstruments.jl/stable)  [![Build Status](https://github.com/RvSpectML/EchelleInstruments.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/EchelleInstruments.jl/actions)
   * Specific algorithms: 
-     - [EchelleCCFs.jl](https://github.com/RvSpectML/EchelleCCFs.jl):  Computes Cross Correlation Functions (CCFs) with an anlytic mask using RvSpectML.  [^itend-stable][^reg-pending]  [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/EchelleCCFs.jl/stable)  [![Build Status](https://github.com/RvSpectML/EchelleCCFs.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/EchelleCCFs.jl/actions)
-     - [Scalpels.jl](https://github.com/RvSpectML/Scalpels.jl): Scalpels algorithm[^itend-stable][^indep]  [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/Scalpels.jl/stable)  [![Build Status](https://github.com/RvSpectML/Scalpels.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/Scalpels.jl/actions)
+     - [EchelleCCFs.jl](https://github.com/RvSpectML/EchelleCCFs.jl):  Computes Cross Correlation Functions (CCFs) with an anlytic mask using RvSpectML.  [^itend-stable]<sup>,</sup>[^reg-pending]  
+     [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/EchelleCCFs.jl/stable)  [![Build Status](https://github.com/RvSpectML/EchelleCCFs.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/EchelleCCFs.jl/actions)
+     - [Scalpels.jl](https://github.com/RvSpectML/Scalpels.jl): Scalpels algorithm[^itend-stable][^indep]  
+     [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/Scalpels.jl/stable)  [![Build Status](https://github.com/RvSpectML/Scalpels.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/Scalpels.jl/actions)
 
 - Repositories:
    * [RvSpectMLPlots.jl](https://github.com/RvSpectML/RvSpectMLPlots.jl):  Plotting functions/scripts/notebooks that use RvSpectML.[^research-is-hard]  
