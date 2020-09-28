@@ -19,8 +19,12 @@
   * [RvSpectML.jl](https://github.com/eford/RvSpectML.jl):  Original RvSpectML omnibus package.  We intend for this package to undergo a major refactoring, now that much functionality is being moved into smaller packages above.
   * [GPLinearODEMaker.jl](https://github.com/christiangil/GPLinearODEMaker.jl):  Computes the likelihood (and derivatives) of multivariate Gaussian processes (GP) that are composed of a linear combination of a univariate GP and its derivatives.
 
+## How To:
+- Report a problem/request a feature:  Create an issue in the relevant github repository
+- Cite RvSpectML:  For now, you can just give the url for packages you use and the version number.  At some point, we'll make something more formal.
+- [Create a new package with similar settings](PkgTemplate.md)
 
-Footnotes:
+### Footnotes on packages/repositories:
 
 [^itend-stable]:  Please try to minimize breaking changes, and make sure any pull requests result in passing tests.  If you add types or methods, then please consider adding associated documentation and tests for your pull request.  
 [^reg-pending]: This package is not yet registerd in Julia's general registry yet.
