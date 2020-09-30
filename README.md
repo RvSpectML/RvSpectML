@@ -8,7 +8,7 @@
   * Specific algorithms: 
      - [EchelleCCFs.jl](https://github.com/RvSpectML/EchelleCCFs.jl):  Computes Cross Correlation Functions (CCFs) with an anlytic mask using RvSpectML.  [^itend-stable]<sup>,</sup>[^reg-pending]  
      [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/EchelleCCFs.jl/stable)  [![Build Status](https://github.com/RvSpectML/EchelleCCFs.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/EchelleCCFs.jl/actions)
-     - [Scalpels.jl](https://github.com/RvSpectML/Scalpels.jl): Scalpels algorithm[^itend-stable][^indep]  
+     - [Scalpels.jl](https://github.com/RvSpectML/Scalpels.jl): Scalpels algorithm[^itend-stable]<sup>,</sup>[^indep]  
      [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/Scalpels.jl/stable)  [![Build Status](https://github.com/RvSpectML/Scalpels.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/Scalpels.jl/actions)
 
 - Repositories:
@@ -17,7 +17,7 @@
   
 - Related packages, but not integrated into RvSpectML (yet?):
   * [RvSpectML.jl](https://github.com/eford/RvSpectML.jl):  Original RvSpectML omnibus package.  We intend for this package to undergo a major refactoring, now that much functionality is being moved into smaller packages above.
-  * [GPLinearODEMaker.jl](https://github.com/christiangil/GPLinearODEMaker.jl):  Computes the likelihood (and derivatives) of multivariate Gaussian processes (GP) that are composed of a linear combination of a univariate GP and its derivatives.
+  * [GPLinearODEMaker.jl](https://github.com/christiangil/GPLinearODEMaker.jl):  Computes the likelihood (and derivatives) of multivariate Gaussian processes (GP) that are composed of a linear combination of a univariate GP and its derivatives.[^indep]
 
 ## How To:
 - Report a problem/request a feature:  Create an issue in the relevant github repository
