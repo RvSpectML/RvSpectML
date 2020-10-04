@@ -19,7 +19,7 @@
      [![Build Status](https://github.com/RvSpectML/EchelleInstruments.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/EchelleInstruments.jl/actions)
      [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/EchelleInstruments.jl/stable)  
      
-     - [RvSpectMLPlots.jl](https://github.com/RvSpectML/RvSpectMLPlots.jl):  Plotting functions/scripts/notebooks that use RvSpectML.[^research-is-hard]<sup>,</sup>[^reg-pending]      
+     - [RvSpectMLPlots.jl](https://github.com/RvSpectML/RvSpectMLPlots.jl):  Plotting functions/scripts/notebooks that use RvSpectML.[^research-is-hard]
      
      [![GitHub tag](https://img.shields.io/github/tag/RvSpectML/RvSpectMLPlots.jl.svg)](https://GitHub.com/RvSpectML/RvSpectMLPlots.jl/tags/)
      
@@ -38,7 +38,7 @@
      
      - [GPLinearODEMaker.jl](https://github.com/christiangil/GPLinearODEMaker.jl):  Computes the likelihood (and derivatives) of multivariate Gaussian processes (GP) that are composed of a linear combination of a univariate GP and its derivatives.[^indep]
      
-     - [Experimental.jl](https://github.com/RvSpectML/Experimental.jl): Repo for multiple pieces of code that are still in the development/research/experimental/untested stage.[^research-is-hard]<sup>,</sup>[^reg-pending]  
+     - [Experimental.jl](https://github.com/RvSpectML/Experimental.jl): Repo for multiple pieces of code that are still in the development/research/experimental/untested stage.[^research-is-hard]<sup>,</sup>[^unreg]  
 
 
 
@@ -52,4 +52,4 @@
 [^itend-stable]:  Please try to minimize breaking changes, and make sure any pull requests result in passing tests.  If you add types or methods, then please consider adding associated documentation and tests for your pull request.  
 [^indep]: This pacakge does *not* depend on RvSpectMLBase (or other RvSpectML repos), but can be easily called by other packages in the RvSpectML ecosystem.
 [^research-is-hard]:  Expect that there will be breaking changes (e.g., renaming functions, changing function arguements, moving code to different modules) in this package.  Once code for some purpose has stabilized and there are appropriate tests, please consider whether it should become its own package or be incorporated into one of our other stable packages.
-[^reg-pending]: This package is not yet registerd in Julia's general registry yet.
+[^unreg]: This package is not yet registerd in Julia's general registry.
