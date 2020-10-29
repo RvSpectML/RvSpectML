@@ -3,9 +3,9 @@
    * General Purpose:
      - [RvSpectML.jl](https://github.com/eford/RvSpectML.jl):  Single package to install that provide most functionality (excluding plotting)
      
-     [![GitHub tag](https://img.shields.io/github/tag/RvSpectML/RvSpectMLBase.jl.svg)](https://GitHub.com/RvSpectML/RvSpectMLBase.jl/tags/)
-     [![Build Status](https://github.com/RvSpectML/RvSpectMLBase.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/RvSpectMLBase.jl/actions)
-     [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/RvSpectMLBase.jl/stable) 
+     [![GitHub tag](https://img.shields.io/github/tag/RvSpectML/RvSpectML.jl.svg)](https://GitHub.com/RvSpectML/RvSpectML.jl/tags/)
+     [![Build Status](https://github.com/RvSpectML/RvSpectML.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/RvSpectML.jl/actions)
+     [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://eford.github.io/RvSpectML.doc/) 
      
      - [RvSpectMLBase.jl](https://github.com/RvSpectML/RvSpectMLBase.jl): Base package to be imported by other members of RvSpectML ecosystem. Provides common data types and methods.  Aims to minimize dependancies on other packages.[^itend-stable]
      
@@ -32,11 +32,14 @@
      
      - [Scalpels.jl](https://github.com/RvSpectML/Scalpels.jl):  Scalpels algorithm to separate shift and shape-induced RVs.[^itend-stable]<sup>,</sup>[^indep]  
      
-     [![GitHub tag](https://img.shields.io/github/tag/RvSpectML/EchelleCCFs.jl.svg)](https://GitHub.com/RvSpectML/EchelleCCFs.jl/tags/)
+     [![GitHub tag](https://img.shields.io/github/tag/RvSpectML/Scalpels.jl.svg)](https://GitHub.com/RvSpectML/Scalpels.jl/tags/)
      [![Build Status](https://github.com/RvSpectML/Scalpels.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/Scalpels.jl/actions)
      [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/Scalpels.jl/stable)  
      
-     - [GPLinearODEMaker.jl](https://github.com/christiangil/GPLinearODEMaker.jl):  Computes the likelihood (and derivatives) of multivariate Gaussian processes (GP) that are composed of a linear combination of a univariate GP and its derivatives.[^indep]
+     - [GPLinearODEMaker.jl](https://github.com/christiangil/GPLinearODEMaker.jl):  Computes the likelihood (and derivatives) of multivariate Gaussian processes (GP) that are composed of a linear combination of a univariate GP and its derivatives.[^indep]  
+     
+     [![arXiv](https://img.shields.io/badge/arXiv-2009.01085-orange.svg)](https://arxiv.org/abs/2009.01085)
+     
      
      - [GLOM_RV_Example](https://github.com/christiangil/GLOM_RV_Example):  Example applying [GPLinearODEMaker.jl](https://github.com/christiangil/GPLinearODEMaker.jl) to model spectroscopic timeseries.  [^indep]<sup>,</sup>[^research-is-hard]<sup>,</sup>[^unreg]  
      
