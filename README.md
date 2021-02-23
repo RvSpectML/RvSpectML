@@ -45,7 +45,8 @@
      
      - [Experimental.jl](https://github.com/RvSpectML/Experimental.jl): Repo for multiple pieces of code that are still in the development/research/experimental/untested stage.[^research-is-hard]<sup>,</sup>[^unreg]  
 
-
+  * Scripts using RvSpectML:
+    - [NeidSolarScripts.jl](https://github.com/RvSpectML/NeidSolarScripts.jl):  Scripts to analyze NEID Sun-as-a-star observations.  [^research-is-hard]<sup>,</sup>[^unreg]  
 
 ## How To:
 - Report a problem/request a feature:  Create an issue in the relevant github repository
