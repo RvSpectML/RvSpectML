@@ -19,40 +19,50 @@
      [![Build Status](https://github.com/RvSpectML/EchelleInstruments.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/EchelleInstruments.jl/actions)
      [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/EchelleInstruments.jl/stable)  
      
-     - [RvSpectMLPlots.jl](https://github.com/RvSpectML/RvSpectMLPlots.jl):  Plotting functions/scripts/notebooks that use RvSpectML.[^research-is-hard]
-     
-     [![GitHub tag](https://img.shields.io/github/tag/RvSpectML/RvSpectMLPlots.jl.svg)](https://GitHub.com/RvSpectML/RvSpectMLPlots.jl/tags/)
-     
-  * Specific algorithms: 
      - [EchelleCCFs.jl](https://github.com/RvSpectML/EchelleCCFs.jl):  Computes Cross Correlation Functions (CCFs) with an anlytic mask using RvSpectML.  (Currently, includes basic code for measuring RVs from CCFs, but this feature may be moved into a separate pacakge in the future.)  [^itend-stable]
      
      [![GitHub tag](https://img.shields.io/github/tag/RvSpectML/EchelleCCFs.jl.svg)](https://GitHub.com/RvSpectML/EchelleCCFs.jl/tags/)
      [![Build Status](https://github.com/RvSpectML/EchelleCCFs.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/EchelleCCFs.jl/actions)
      [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/EchelleCCFs.jl/stable)  
-     
-     - [Scalpels.jl](https://github.com/RvSpectML/Scalpels.jl):  Scalpels algorithm to separate shift and shape-induced RVs.[^itend-stable]<sup>,</sup>[^indep]  
-     
+     [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4593963.svg)](https://doi.org/10.5281/zenodo.4593963)
+
+  * Specific algorithms: 
+     - [Scalpels.jl](https://github.com/RvSpectML/Scalpels.jl):  Scalpels algorithm to separate shift and shape-induced RVs.[^itend-stable]<sup>,</sup>[^indep]
      [![GitHub tag](https://img.shields.io/github/tag/RvSpectML/Scalpels.jl.svg)](https://GitHub.com/RvSpectML/Scalpels.jl/tags/)
      [![Build Status](https://github.com/RvSpectML/Scalpels.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/Scalpels.jl/actions)
      [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/Scalpels.jl/stable)  
      
      - [GPLinearODEMaker.jl](https://github.com/christiangil/GPLinearODEMaker.jl):  Computes the likelihood (and derivatives) of multivariate Gaussian processes (GP) that are composed of a linear combination of a univariate GP and its derivatives.[^indep]  
-     
+     [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://christiangil.github.io/GPLinearODEMaker.jl/dev/)  
      [![arXiv](https://img.shields.io/badge/arXiv-2009.01085-orange.svg)](https://arxiv.org/abs/2009.01085)
-     
+     [![DOI](https://zenodo.org/badge/256533350.svg)](https://zenodo.org/badge/latestdoi/256533350)
+
      
      - [GLOM_RV_Example](https://github.com/christiangil/GLOM_RV_Example):  Example applying [GPLinearODEMaker.jl](https://github.com/christiangil/GPLinearODEMaker.jl) to model spectroscopic timeseries.  [^indep]<sup>,</sup>[^research-is-hard]<sup>,</sup>[^unreg]  
      
+  * Scripts using/supporting RvSpectML:
+    - [NeidArchive.jl](https://github.com/RvSpectML/NeidArchive.jl):  Julia wrapper for API to query/download data from Neid archives.  [^indep]
+     [![GitHub tag](https://img.shields.io/github/tag/RvSpectML/NeidArchive.jl.svg)](https://GitHub.com/RvSpectML/NeidArchive.jl/tags/)
+     [![Build Status](https://github.com/RvSpectML/NeidArchive.jl/workflows/CI/badge.svg)](https://github.com/RvSpectML/NeidArchive.jl/actions)
+     [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://RvSpectML.github.io/NeidArchive.jl/stable)  
+     
+     
+    - [NeidSolarScripts.jl](https://github.com/RvSpectML/NeidSolarScripts.jl):  Scripts to analyze NEID Sun-as-a-star observations.  [^research-is-hard]<sup>,</sup>[^unreg]  
+
+     - [RvSpectMLPlots.jl](https://github.com/RvSpectML/RvSpectMLPlots.jl):  Plotting functions/scripts/notebooks that use RvSpectML.[^research-is-hard]     
+     [![GitHub tag](https://img.shields.io/github/tag/RvSpectML/RvSpectMLPlots.jl.svg)](https://GitHub.com/RvSpectML/RvSpectMLPlots.jl/tags/)
+     
      - [Experimental.jl](https://github.com/RvSpectML/Experimental.jl): Repo for multiple pieces of code that are still in the development/research/experimental/untested stage.[^research-is-hard]<sup>,</sup>[^unreg]  
 
-  * Scripts using RvSpectML:
-    - [NeidSolarScripts.jl](https://github.com/RvSpectML/NeidSolarScripts.jl):  Scripts to analyze NEID Sun-as-a-star observations.  [^research-is-hard]<sup>,</sup>[^unreg]  
+
 
 ## How To:
 - Report a problem/request a feature:  Create an issue in the relevant github repository
 - [Create a new package with similar settings](PkgTemplate.md)
-- Cite RvSpectML:  For now, you can just give the url for packages you use and the version number.  At some point, we'll make something more formal.
+- Cite RvSpectML:  For now, you can just give the url for packages you use and the version number.  Or let us know, we'll create a DOI.
 - Cite [GPLinearODEMaker.jl](https://github.com/christiangil/GPLinearODEMaker.jl) or [GLOM_RV_Example](https://github.com/christiangil/GLOM_RV_Example):  [![arXiv](https://img.shields.io/badge/arXiv-2009.01085-orange.svg)](https://arxiv.org/abs/2009.01085).
+     [![DOI](https://zenodo.org/badge/256533350.svg)](https://zenodo.org/badge/latestdoi/256533350)
+
 
 ### Footnotes on packages/repositories:
 
